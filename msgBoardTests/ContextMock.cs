@@ -10,7 +10,7 @@ using Moq;
 namespace msgBoardTests
 {
     [TestClass]
-    public class UnitTest2
+    public class ContextMock
     {
         private MsgRepo svc;
         private Mock<DbSet<Reply>> mockSet;

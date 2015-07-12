@@ -67,9 +67,9 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="UnitTest1.cs" />
+    <Compile Include="RepositoryMock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UnitTest2.cs" />
+    <Compile Include="ContextMock.cs" />
     <Compile Include="UnitTest3.cs" />
   </ItemGroup>
   <ItemGroup>

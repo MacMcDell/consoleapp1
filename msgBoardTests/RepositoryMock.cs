@@ -11,11 +11,11 @@ using Moq;
 namespace msgBoardTests
 {
     [TestClass]
-    public class UnitTest1
+    public class RepositoryMock
     {
         public readonly IMsgRepo MockRepo;
 
-        public UnitTest1()
+        public RepositoryMock()
         {
 
 
@@ -89,10 +89,7 @@ namespace msgBoardTests
             Assert.IsInstanceOfType(r, typeof(Reply));
             Assert.AreEqual(r.Body, "bdy2");
 
-
-
-
-        }
+       }
 
         [TestMethod]
         public void DeleteReply()
